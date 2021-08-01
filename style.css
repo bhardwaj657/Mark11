@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+body{
+    font-family: 'Dancing Script', cursive; 
+    background-color: #fff4f4a3;
+/* font-family: 'Pacifico', cursive; */
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+    color: red;
+}
+.heading{
+   font-family: 'Pacifico', cursive; 
+   background-color: #ff9715;
+   color: #06a5ff;
+   text-align: center;
+   font-size: 2.5rem;
+   text-decoration: underline;
+   padding: .5rem;
+}
+label{
+    color: rebeccapurple;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    display: block;
+}
+.container{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+input{
+    display: block;
+    padding: .5rem;
+    outline: none;
+    border: 2px solid red;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+button{
+    padding: .4rem;
+    font-size: 1.5rem;
+    border: 3px solid #ff6318;
+    border-radius: 1rem;
+    background-color: #ff545499;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.message{
+    font-size: 3rem;
+    background-color: #f0ffff6b;
+    font-weight: bold;
+}
